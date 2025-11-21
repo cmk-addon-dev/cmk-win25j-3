@@ -1,15 +1,23 @@
 {
     "name": "cmk-win25j-3",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
-        "builder": "*"
+        "builder": "*",
+        "cmk-magic": "github:cmk-addon-dev/cmk-magic#v1.1.0"
     },
     "files": [
-        "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "test/2-1.md",
+        "test/2-2.md",
+        "test/2-3.md",
+        "test/3-1.md",
+        "test/3-2.md",
+        "test/3-3.md",
+        "test/4-1.md",
+        "test/done.md"
     ],
     "testFiles": [
         "test.ts"
@@ -22,5 +30,5 @@
     "supportedTargets": [
         "minecraft"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
