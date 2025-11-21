@@ -1,0 +1,20 @@
+### @hideIteration true
+### @flyoutOnly false
+### @explicitHints true
+
+# done
+
+## ☑ を おしてみよう！
+
+```ghost
+player.onItemInteracted(APPLE, function () {
+    mobs.applyEffect(SPEED, mobs.entitiesByType(CHICKEN), 10, 1)
+})
+player.onArrowShot(function () {
+    cmkMagic.addMagicParticle(ProjectileEntity.Arrow, MagicParticle.FlameRed)
+})
+player.onChat("go", function () {
+    mobs.spawn(CHICKEN, posCamera(0, 0, 0))
+    blocks.place(GRASS, posCamera(0, 0, 0))
+})
+```

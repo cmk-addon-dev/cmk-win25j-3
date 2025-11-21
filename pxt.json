@@ -17,7 +17,7 @@
         "test/3-2.md",
         "test/3-3.md",
         "test/4-1.md",
-        "test/done.md"
+        "test/done_2.md"
     ],
     "testFiles": [
         "test.ts"
